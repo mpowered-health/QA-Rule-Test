@@ -16,7 +16,7 @@ public class MinorUserPojo implements java.io.Serializable {
 	private java.lang.String lastName;
 	private java.util.Date birthDate;
 	private java.lang.String state;
-	private Boolean consentRequired;
+	private boolean consentRequired;
 	private java.lang.String phoneNo;
 	private java.lang.String email;
 
@@ -103,11 +103,11 @@ public class MinorUserPojo implements java.io.Serializable {
 		this.email = email;
 	}
 
-	public java.lang.Boolean getConsentRequired() {
+	public boolean isConsentRequired() {
 		return this.consentRequired;
 	}
 
-	public void setConsentRequired(java.lang.Boolean consentRequired) {
+	public void setConsentRequired(boolean consentRequired) {
 		this.consentRequired = consentRequired;
 	}
 
@@ -116,7 +116,7 @@ public class MinorUserPojo implements java.io.Serializable {
 			java.lang.String referringResourceType, java.lang.String patientId,
 			java.lang.String firstName, java.lang.String lastName,
 			java.util.Date birthDate, java.lang.String state,
-			java.lang.Boolean consentRequired, java.lang.String phoneNo,
+			boolean consentRequired, java.lang.String phoneNo,
 			java.lang.String email) {
 		this.id = id;
 		this.referringResourceId = referringResourceId;
