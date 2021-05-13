@@ -6,12 +6,129 @@ package com.mpowered.commons.pojo.userpojo;
 
 public class MinorUserPojo implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public MinorUserPojo() {
-    }
+	private java.lang.String id;
+	private java.lang.String referringResourceId;
+	private java.lang.String referringResourceType;
+	private java.lang.String patientId;
+	private java.lang.String firstName;
+	private java.lang.String lastName;
+	private java.util.Date birthDate;
+	private java.lang.String state;
+	private java.lang.Boolean consentRequired;
+	private java.lang.String phoneNo;
+	private java.lang.String email;
 
+	public MinorUserPojo() {
+	}
 
+	public java.lang.String getId() {
+		return this.id;
+	}
 
+	public void setId(java.lang.String id) {
+		this.id = id;
+	}
+
+	public java.lang.String getReferringResourceId() {
+		return this.referringResourceId;
+	}
+
+	public void setReferringResourceId(java.lang.String referringResourceId) {
+		this.referringResourceId = referringResourceId;
+	}
+
+	public java.lang.String getReferringResourceType() {
+		return this.referringResourceType;
+	}
+
+	public void setReferringResourceType(java.lang.String referringResourceType) {
+		this.referringResourceType = referringResourceType;
+	}
+
+	public java.lang.String getPatientId() {
+		return this.patientId;
+	}
+
+	public void setPatientId(java.lang.String patientId) {
+		this.patientId = patientId;
+	}
+
+	public java.lang.String getFirstName() {
+		return this.firstName;
+	}
+
+	public void setFirstName(java.lang.String firstName) {
+		this.firstName = firstName;
+	}
+
+	public java.lang.String getLastName() {
+		return this.lastName;
+	}
+
+	public void setLastName(java.lang.String lastName) {
+		this.lastName = lastName;
+	}
+
+	public java.util.Date getBirthDate() {
+		return this.birthDate;
+	}
+
+	public void setBirthDate(java.util.Date birthDate) {
+		this.birthDate = birthDate;
+	}
+
+	public java.lang.String getState() {
+		return this.state;
+	}
+
+	public void setState(java.lang.String state) {
+		this.state = state;
+	}
+
+	public java.lang.Boolean getConsentRequired() {
+		return this.consentRequired;
+	}
+
+	public void setConsentRequired(java.lang.Boolean consentRequired) {
+		this.consentRequired = consentRequired;
+	}
+
+	public java.lang.String getPhoneNo() {
+		return this.phoneNo;
+	}
+
+	public void setPhoneNo(java.lang.String phoneNo) {
+		this.phoneNo = phoneNo;
+	}
+
+	public java.lang.String getEmail() {
+		return this.email;
+	}
+
+	public void setEmail(java.lang.String email) {
+		this.email = email;
+	}
+
+	public MinorUserPojo(java.lang.String id,
+			java.lang.String referringResourceId,
+			java.lang.String referringResourceType, java.lang.String patientId,
+			java.lang.String firstName, java.lang.String lastName,
+			java.util.Date birthDate, java.lang.String state,
+			java.lang.Boolean consentRequired, java.lang.String phoneNo,
+			java.lang.String email) {
+		this.id = id;
+		this.referringResourceId = referringResourceId;
+		this.referringResourceType = referringResourceType;
+		this.patientId = patientId;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.birthDate = birthDate;
+		this.state = state;
+		this.consentRequired = consentRequired;
+		this.phoneNo = phoneNo;
+		this.email = email;
+	}
 
 }
