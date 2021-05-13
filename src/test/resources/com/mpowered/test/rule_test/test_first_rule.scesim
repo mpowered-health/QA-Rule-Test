@@ -33,20 +33,27 @@
           <columnWidth>300.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements/>
+          <expressionElements>
+            <ExpressionElement>
+              <step>MinorUserPojo</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>birthDate</step>
+            </ExpressionElement>
+          </expressionElements>
           <expressionIdentifier>
             <name>1620921950721</name>
             <type>GIVEN</type>
           </expressionIdentifier>
           <factIdentifier>
-            <name>Empty</name>
-            <className>java.lang.Void</className>
+            <name>1|1</name>
+            <className>com.mpowered.commons.pojo.userpojo.MinorUserPojo</className>
           </factIdentifier>
-          <className>java.lang.Void</className>
-          <factAlias>INSTANCE 4</factAlias>
-          <expressionAlias>PROPERTY 4</expressionAlias>
+          <className>java.util.Date</className>
+          <factAlias>MinorUserPojo</factAlias>
+          <expressionAlias>birthDate</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>502.0</columnWidth>
+          <columnWidth>508.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -69,7 +76,7 @@
           <factAlias>MinorUserPojo</factAlias>
           <expressionAlias>consentRequired</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>502.0</columnWidth>
+          <columnWidth>508.0</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -111,13 +118,14 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Empty</name>
-              <className>java.lang.Void</className>
+              <name>1|1</name>
+              <className>com.mpowered.commons.pojo.userpojo.MinorUserPojo</className>
             </factIdentifier>
             <expressionIdentifier>
               <name>1620921950721</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string"># new java.util.Date(1115835677000)</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -158,13 +166,14 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Empty</name>
-              <className>java.lang.Void</className>
+              <name>1|1</name>
+              <className>com.mpowered.commons.pojo.userpojo.MinorUserPojo</className>
             </factIdentifier>
             <expressionIdentifier>
               <name>1620921950721</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string"># new java.util.Date(1273602077000)</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -214,6 +223,10 @@
     <stateless>false</stateless>
   </settings>
   <imports>
-    <imports/>
+    <imports>
+      <Import>
+        <type>com.mpowered.commons.pojo.userpojo.MinorUserPojo</type>
+      </Import>
+    </imports>
   </imports>
 </ScenarioSimulationModel>
