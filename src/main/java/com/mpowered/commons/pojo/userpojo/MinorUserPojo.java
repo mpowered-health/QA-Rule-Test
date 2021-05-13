@@ -16,7 +16,7 @@ public class MinorUserPojo implements java.io.Serializable {
 	private java.lang.String lastName;
 	private java.util.Date birthDate;
 	private java.lang.String state;
-	private java.lang.Boolean consentRequired;
+	private Boolean consentRequired;
 	private java.lang.String phoneNo;
 	private java.lang.String email;
 
@@ -129,6 +129,14 @@ public class MinorUserPojo implements java.io.Serializable {
 		this.consentRequired = consentRequired;
 		this.phoneNo = phoneNo;
 		this.email = email;
+	}
+
+	public java.lang.Boolean getConsentRequired() {
+		return this.consentRequired;
+	}
+
+	public void setConsentRequired(java.lang.Boolean consentRequired) {
+		this.consentRequired = consentRequired;
 	}
 
 }
