@@ -87,14 +87,6 @@ public class MinorUserPojo implements java.io.Serializable {
 		this.state = state;
 	}
 
-	public java.lang.Boolean getConsentRequired() {
-		return this.consentRequired;
-	}
-
-	public void setConsentRequired(java.lang.Boolean consentRequired) {
-		this.consentRequired = consentRequired;
-	}
-
 	public java.lang.String getPhoneNo() {
 		return this.phoneNo;
 	}
@@ -109,6 +101,14 @@ public class MinorUserPojo implements java.io.Serializable {
 
 	public void setEmail(java.lang.String email) {
 		this.email = email;
+	}
+
+	public java.lang.Boolean getConsentRequired() {
+		return this.consentRequired;
+	}
+
+	public void setConsentRequired(java.lang.Boolean consentRequired) {
+		this.consentRequired = consentRequired;
 	}
 
 	public MinorUserPojo(java.lang.String id,
@@ -129,14 +129,6 @@ public class MinorUserPojo implements java.io.Serializable {
 		this.consentRequired = consentRequired;
 		this.phoneNo = phoneNo;
 		this.email = email;
-	}
-
-	public java.lang.Boolean getConsentRequired() {
-		return this.consentRequired;
-	}
-
-	public void setConsentRequired(java.lang.Boolean consentRequired) {
-		this.consentRequired = consentRequired;
 	}
 
 }
