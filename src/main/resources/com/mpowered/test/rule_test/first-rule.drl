@@ -10,7 +10,7 @@ function boolean requiredConsent(Date birthDate) {
     return Duration.between(Instant.ofEpochMilli(birthDate.getTime()), Instant.now()).toDays() > 4745;
 }
 
-rule "is_minor.consent_check"
+rule "is_minor.consent_check_1"
 when 
     $minor: MinorUserPojo( consentRequired == false )
     eval(requiredConsent($minor.getBirthDate()))
