@@ -46,7 +46,7 @@
           <factAlias>INSTANCE 4</factAlias>
           <expressionAlias>PROPERTY 4</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>508.0</columnWidth>
+          <columnWidth>502.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -69,7 +69,7 @@
           <factAlias>MinorUserPojo</factAlias>
           <expressionAlias>consentRequired</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>508.0</columnWidth>
+          <columnWidth>502.0</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -187,7 +187,7 @@
           <factAlias>INSTANCE 1</factAlias>
           <expressionAlias>PROPERTY 1</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
+          <columnWidth>1386.0</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
